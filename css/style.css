@@ -119,7 +119,27 @@ hr{
     word-spacing: 0.5rem;
     line-height: 1.6rem;
 }
+/*FOOTER*/
+.footer{
+    background-color: rgb(162, 85, 235);
+    color: white;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+.footer-link > a{
+    color: white;
+    
+}
+.informations{
+    padding: 20px 0px;
+}
 
+.footer-container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
 
 /*MEDIA */
 @media screen and (min-width: 768px) {
