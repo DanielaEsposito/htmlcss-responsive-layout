@@ -23,7 +23,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  background-color: lightgray;
+  background-color: rgb(247, 244, 227);
 }
 
 .d-none {
@@ -68,6 +68,7 @@ h2 {
 }
 .container-video {
   background-color: white;
+  box-shadow:1px 2px 5px gray;
 }
 .column-sm {
   padding: 30px 20px;
@@ -95,6 +96,10 @@ li > span,
   font-size: 1.2rem;
   padding: 10px 15px;
   border-radius: 20px;
+  box-shadow:1px 2px 5px gray;
+}
+.icons-social > a{
+  text-decoration: none;
 }
 .facebook {
   color: blue;
@@ -115,9 +120,9 @@ li > span,
   padding: 10px px;
 }
 hr {
-  color: orange;
-  width: 50px;
-  margin: 10px 0px;
+border: 1px solid orange;
+width: 60px;
+margin: 20px 0px;
 }
 .img-container {
   width: 300px;
@@ -208,18 +213,18 @@ hr {
     padding: 10px 50px;
     font-size: 0.8rem;
   }
-  .icons-social > span {
+  .icons-social > a > span {
     color: black;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.8rem;
+    text-decoration: none;
   }
-  .footer-container{
+  .footer-container {
     justify-content: space-between;
     flex-direction: row;
-    
   }
-.informations{
+  .informations {
     text-align: left;
-}
+  }
 }
