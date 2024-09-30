@@ -116,7 +116,7 @@ li > span,
 }
 /*PRESENTATION*/
 .title-section {
-  text-decoration: none;
+font-weight: normal;
   padding: 10px px;
 }
 hr {
@@ -129,7 +129,7 @@ margin: 20px 0px;
   margin: auto;
 }
 .Presentation p {
-  font-weight: 100;
+  font-weight: normal;
   word-spacing: 0.5rem;
   line-height: 1.6rem;
   padding-bottom: 30px;
