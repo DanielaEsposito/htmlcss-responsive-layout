@@ -99,6 +99,22 @@ li > span,
 .youtube {
   color: red;
 }
+/*PRESENTATION*/
+.title-section{
+    text-decoration: none;
+    padding: 10px px;
+
+}
+hr{
+    color: orange;
+    width: 30px;
+    margin: 10px 0px;
+}
+.Presentation  p {
+    font-weight: 100;
+    word-spacing: 0.5rem;
+}
+
 
 /*MEDIA */
 @media screen and (min-width: 768px) {
