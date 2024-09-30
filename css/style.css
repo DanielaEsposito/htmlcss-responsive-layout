@@ -127,6 +127,7 @@ hr {
   font-weight: 100;
   word-spacing: 0.5rem;
   line-height: 1.6rem;
+  padding-bottom: 30px;
 }
 /*FOOTER*/
 .footer {
@@ -148,6 +149,7 @@ hr {
   align-items: center;
   text-align: center;
   flex-direction: column;
+  padding: 10px;
 }
 
 /*MEDIA */
@@ -170,12 +172,15 @@ hr {
   .list-items {
     margin-right: 40px;
   }
-  .icons-social{
-    padding: 10px 30px;
+  .icons-social {
+    padding: 10px 70px;
   }
-  .img-container{
+  .img-container {
     float: left;
     margin: 5px 10px 5px 0px;
+  }
+  h1 {
+    text-align: left;
   }
 }
 
@@ -192,4 +197,29 @@ hr {
   .d-lg-inline {
     display: inline;
   }
+  .column-lg {
+    width: 60%;
+  }
+  .column-sm {
+    width: 40%;
+  }
+
+  .icons-social {
+    padding: 10px 50px;
+    font-size: 0.8rem;
+  }
+  .icons-social > span {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  .footer-container{
+    justify-content: space-between;
+    flex-direction: row;
+    
+  }
+.informations{
+    text-align: left;
+}
 }
