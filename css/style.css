@@ -38,6 +38,9 @@ body {
 .d-inline {
   display: inline;
 }
+section{
+    padding: 20px 0px;
+}
 
 /*MAIN*/
 /*header*/
@@ -50,6 +53,7 @@ h1 {
   font-size: 2rem;
   text-align: center;
   color: orange;
+  padding: 10px 0px;
 }
 /*VIDEO SECTION*/
 h3 {
@@ -67,9 +71,33 @@ h2 {
 }
 ul > li {
   padding: 10px;
+  list-style: none;
 }
-li > span{
-    font-weight: bold;
+li > span,
+.btn-container > span.icons {
+  font-weight: bold;
+}
+.btn-container {
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+.icons-social {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.facebook {
+  color: blue;
+}
+.instagram {
+  color: rgb(255, 20, 71);
+}
+.twitter {
+  color: rgb(75, 165, 196);
+}
+.pinterest,
+.youtube {
+  color: red;
 }
 
 /*MEDIA */
