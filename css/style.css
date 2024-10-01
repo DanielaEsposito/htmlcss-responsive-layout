@@ -68,7 +68,7 @@ h2 {
 }
 .container-video {
   background-color: white;
-  box-shadow:1px 2px 5px gray;
+  box-shadow: 1px 2px 5px gray;
 }
 .column-sm {
   padding: 30px 20px;
@@ -96,9 +96,9 @@ li > span,
   font-size: 1.2rem;
   padding: 10px 15px;
   border-radius: 20px;
-  box-shadow:1px 2px 5px gray;
+  box-shadow: 1px 2px 5px gray;
 }
-.icons-social > a{
+.icons-social > a {
   text-decoration: none;
 }
 .facebook {
@@ -116,13 +116,13 @@ li > span,
 }
 /*PRESENTATION*/
 .title-section {
-font-weight: normal;
+  font-weight: normal;
   padding: 10px px;
 }
 hr {
-border: 1px solid orange;
-width: 60px;
-margin: 20px 0px;
+  border: 1px solid orange;
+  width: 60px;
+  margin: 20px 0px;
 }
 .img-container {
   width: 270px;
@@ -178,7 +178,7 @@ margin: 20px 0px;
     margin-right: 40px;
   }
   .icons-social {
-    padding: 10px 70px;
+    padding: 10px 30px;
   }
   .img-container {
     float: left;
@@ -186,6 +186,16 @@ margin: 20px 0px;
   }
   h1 {
     text-align: left;
+  }
+}
+@media screen and (min-width: 576px) {
+  .icons-social{
+    display: flex;
+    flex: 1 1 100px;
+    gap: 0px;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 5px;
   }
 }
 
