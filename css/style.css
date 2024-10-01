@@ -180,10 +180,7 @@ hr {
   .icons-social {
     padding: 10px 30px;
   }
-  .img-container {
-    float: left;
-    margin: 5px 10px 5px 0px;
-  }
+  
   h1 {
     text-align: left;
   }
@@ -196,6 +193,10 @@ hr {
     text-align: center;
     justify-content: center;
     margin: 0px 5px;
+  }
+  .img-container {
+    float: left;
+    margin: 5px 10px 5px 0px;
   }
 }
 
